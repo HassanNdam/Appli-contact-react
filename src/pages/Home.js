@@ -45,7 +45,7 @@ const Home = () => {
             <th style={{ textAlign: "center" }}>Nom</th>
             <th style={{ textAlign: "center" }}>Adresse Email</th>
             <th style={{ textAlign: "center" }}>Contact</th>
-            <th style={{ textAlign: "center" }}>Action</th>
+            <th style={{ textAlign: "center" }} className="action">Action</th>
           </tr>
         </thead>
         <tbody>
