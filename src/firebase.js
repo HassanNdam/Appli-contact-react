@@ -1,10 +1,8 @@
-// import firebase from "firebase/app"; 
-// import "firebase/database"; 
 import firebase from "firebase/compat/app";
 import "firebase/compat/database";
 
 
-// Config API Firebase
+// Config API Firebase - Connexion BDD
 const firebaseConfig = {
     apiKey: "AIzaSyCAuic_gzFgFUy6nzHClxnOuavTRKkx9PM",
     authDomain: "react-contact-7e55c.firebaseapp.com",
