@@ -4,6 +4,7 @@ import AddEdit from './pages/AddEdit';
 import Home from './pages/Home';
 import View from './pages/View';
 import About from './pages/About';
+import Home2 from './pages/Home2';
 import './App.css';
 import { ToastContainer} from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="/update/:id" element={<AddEdit/>}/>
           <Route path="/view/:id" element={<View/>}/>
           <Route path="/about" element={<About/>}/>
+          <Route path="/home2" element={<Home2/>}/>
         </Routes>
       </div>
     </BrowserRouter>

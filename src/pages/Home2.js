@@ -2,7 +2,9 @@ import React from 'react'
 
 const Home2 = () => {
   return (
-    <div>Home2</div>
+    <div style={{marginTop:"25px"}}>
+        <h2>Affichage avec FireStore</h2>
+    </div>
   )
 }
 
