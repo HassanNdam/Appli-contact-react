@@ -47,8 +47,14 @@ const Header = () => {
                  À propos
                 </p>
             </Link>
-
-
+            <Link to="/Home2">
+                <p 
+                className={`${activeTab === "Home2" ? "active" : ""}`}
+                 onClick={() => setActiveTab("Home2")}
+                 >
+                Firestore
+                </p>
+            </Link>
         </div>
     </div>
   )

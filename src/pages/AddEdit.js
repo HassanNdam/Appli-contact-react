@@ -74,7 +74,7 @@ const AddEdit = () => {
             toast.error(err);
           }
             else{
-              toast.success("Contact mise à jour avec succès"); 
+              toast.success("Contact mis à jour avec succès"); 
             }
         });
       }
