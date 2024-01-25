@@ -1,6 +1,6 @@
 <<<<<<< HEAD
 
-Application current link : https://contact-application-a319f.web.app/
+ <a href="https://contact-application-a319f.web.app/" target="_blank">Application current link </a> 
 
 # Getting Started with Create React App
 
